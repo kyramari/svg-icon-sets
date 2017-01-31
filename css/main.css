@@ -1,0 +1,41 @@
+html {
+  box-sizing: border-box;
+  font-family: "Overpass", sans-serif;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  background-image: linear-gradient(to bottom, #ff9500, #ff5e3a);
+  background-color: #ff9500;
+}
+
+i {
+  color: #fff;
+}
+
+h1, h2, p, a {
+  color: #fff;
+}
+
+.btn {
+  color: #fff;
+  border-color: #fff;
+}
+
+.bottom {
+  border-bottom: solid 3px rgba(255, 255, 255, .5);
+}
+
+@media only screen and (min-width: 60em) {
+
+  .bottom {
+    border: none;
+  }
+
+  .left {
+    border-left: solid 3px rgba(255, 255, 255, .5);
+  }
+}
